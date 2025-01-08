@@ -53,10 +53,7 @@ ZeroWaste Chef is designed to help minimize food waste, save money, and make coo
 3. **Get Recipe Suggestions**: 
    - Based on the inventory items and your dietary restrictions, receive recipe ideas that minimize waste and use up ingredients effectively.
 
-4. **Expiry Date Notifications**: 
-   - The system will notify you when your food items are about to expire, allowing you to use them before they go bad.
-
-5. **Sustainable Cooking**: 
+4. **Sustainable Cooking**: 
    - Use the leftover ingredients efficiently and repurpose them for new meals.
 
 ## Tech Stack
@@ -85,8 +82,12 @@ Before you begin, ensure you have the following installed:
    git clone https://github.com/AkshatBhatt-786/ZeroWaste-Chef.git
    cd ZeroWaste-Chef
 
-2. pip install -r requirements.txt
+2. Install the necessary libraries
+    ```bash
+    pip install -r requirements.txt
 
-3. streamlit run app.py
+3. Run the Application 
+    ```bash
+    streamlit run app.py
 
 4. Follow the on-screen instructions to register, log in, and start managing your inventory.
